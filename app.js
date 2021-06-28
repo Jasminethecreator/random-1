@@ -12,6 +12,24 @@ btnGen.addEventListener('click', function () {
     // checkInput()
     // createDiv()
 
+   
+const userTailwindColor = prompt('Enter TW Color?');
+const userContent = window.prompt('What Text?');
+
+
+
+if(userTailwindColor === ["red","black","white","gray","yellow","green","blue","indigo","purple","pink,"] ) {
+    
+    alert ("great color choice" + userContent);
+}
+else{
+
+  alert ("select vaild TW color");
+}
+    
+    
+    
+    
     collectInput(); //string
 
     //@TODO: Refactor this block to simplify this EventListner
