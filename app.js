@@ -34,7 +34,7 @@ else{
 
     //@TODO: Refactor this block to simplify this EventListner
     const userTailwindColor = window.prompt('What TW Color?'); //string
-    const userContent = window.prompt('What Text?'); // string
+    const userContent = window.prompt('What is your name?'); // string
 
     // 1. check that the input is valid
     // 2. if it's not valid, give feedback
