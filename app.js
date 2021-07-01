@@ -77,6 +77,36 @@ btnGen.addEventListener("click", function () {
    * if(TWCheck && userCheck) createNewDiv();
    */
 
+  // start of refator 
+ collectInput(userTailwindColor,userContent) {
+    console.log ('What TW Color?' + userTailwindColor + userContent  );
+ }
+   collectInput()
+  
+  
+  // option2
+  function collectInput (userTailwindColor , userContent) {
+    console.log ('What TW Color?' + userTailwindColor + 'What Text?' userContent);
+ }
+  
+  
+
+//collectInput ('red', + 'Hello');
+  
+//if (TWClassValid &&  isContentValid ) {
+ // console.log ("great color pick")
+  
+//
+
+
+  //end of refactor
+  
+  
+  
+  
+  
+  
+  
   // well, that's nice but we're setting variables over and over, we can clean this up a bit
   // with some eye towards Functional Programming
 
